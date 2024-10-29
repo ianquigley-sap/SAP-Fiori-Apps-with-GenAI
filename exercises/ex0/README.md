@@ -4,7 +4,7 @@ As a particpant of the hands-on, you should already be setup with access to the 
 
 ## Accessing SAP Business Application Studio
 
-Navigate to https://bcjoule.cry10cf.int.applicationstudio.cloud.sap/index.html?externalRedirect=true
+Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
 
 **NOTE:  BAS is only supported on Chrome and Firefox.  Please ensure you use one of these browsers.**
