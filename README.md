@@ -20,6 +20,7 @@ There are no special requirements to follow the exercises in this repository.
 - [Getting Started - Setting up your Development Environment](exercises/ex0#getting-started---setting-up-your-development-environment)
   - [Accessing SAP Business Application Studio](exercises/ex0#accessing-sap-business-application-studio)
   - [Creating the Development Space](exercises/ex0#creating-the-development-space)
+  - [Opening the Development Space](exercises/ex0#opening-the-development-space)
   - [Enable Generative AI features with SAP Fiori Tools](exercises/ex0#enable-generative-ai-features-with-sap-fiori-tools)
 
 - [Exercise 1 - Generate an SAP Fiori app from business requirements](exercises/ex1#exercise-1---generate-an-sap-fiori-elements-application-from-business-requirements)

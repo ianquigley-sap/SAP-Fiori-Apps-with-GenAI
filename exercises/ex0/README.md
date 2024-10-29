@@ -9,7 +9,17 @@ Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
 **NOTE:  BAS is only supported on Chrome and Firefox.  Please ensure you use one of these browsers.**
 
+## Accessing the Dev Space Manager
+
+On the SAP Build landing page, click button **Switch Product** in the top right corner and select **Dev Space Manager**.
+![Access Dev Space Manager](ex0img0.png)
 ## Creating the Development Space
+
+Your dev space has been precreated for the hands-on session.
+If shown in the dev space manager, continue directly with step [Opening the Development Space](#opening-the-development-space)
+
+If the **Welcome to** landing page is shown instead, you have to create a new dev space as follows.
+
 
 Click on the button **Create Dev Space**.
 
@@ -23,7 +33,11 @@ In the lower right corner of the page press button **Create Dev Space**.
 
 ![Confirm](ex0img3.png)
 
-Once your development space has status running, click on the development space name to open it.  This can take some time.
+## Opening the Development Space
+
+Make sure your development space has status running. If stopped, click the start button. 
+![Restart Dev Space](ex0img4a.png)
+Once running, click on the development space name to open it.  This can take some time.
 
 ![Enter Dev Space](ex0img4.png)
 
@@ -91,3 +105,12 @@ With the setup procedure done, you now have completed:
 - Enabling of the SAP Fiori tools AI features
 
 Continue to - [Exercise 1 - Generate an SAP Fiori app from business requirements](../ex1/README.md)
+
+- [Getting Started - Setting up your Development Environment](#getting-started---setting-up-your-development-environment)
+  - [Accessing SAP Business Application Studio](#accessing-sap-business-application-studio)
+  - [Accessing the Dev Space Manager](#accessing-the-dev-space-manager)
+  - [Creating the Development Space](#creating-the-development-space)
+  - [Opening the Development Space](#opening-the-development-space)
+  - [Enable Generative AI features with SAP Fiori Tools](#enable-generative-ai-features-with-sap-fiori-tools)
+  - [Open your project folder](#open-your-project-folder)
+  - [Summary](#summary)
