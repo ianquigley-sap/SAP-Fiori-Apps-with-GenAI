@@ -105,12 +105,3 @@ With the setup procedure done, you now have completed:
 - Enabling of the SAP Fiori tools AI features
 
 Continue to - [Exercise 1 - Generate an SAP Fiori app from business requirements](../ex1/README.md)
-
-- [Getting Started - Setting up your Development Environment](#getting-started---setting-up-your-development-environment)
-  - [Accessing SAP Business Application Studio](#accessing-sap-business-application-studio)
-  - [Accessing the Dev Space Manager](#accessing-the-dev-space-manager)
-  - [Creating the Development Space](#creating-the-development-space)
-  - [Opening the Development Space](#opening-the-development-space)
-  - [Enable Generative AI features with SAP Fiori Tools](#enable-generative-ai-features-with-sap-fiori-tools)
-  - [Open your project folder](#open-your-project-folder)
-  - [Summary](#summary)
