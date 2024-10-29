@@ -1,4 +1,4 @@
-# Cloud ERP AI - Hands on
+# SAP Fiori Apps with GenAI (Hands-on)
 From Sketch to Productive App: Build SAP Fiori Apps with GenAI 
 
 ## Description
