@@ -309,9 +309,7 @@ Remove this line.
 ![](image52.png)
 
 
-Click ** **![](image54.png).
 
-![](image53.png)
 
 add the following code snippet:
 
@@ -321,11 +319,10 @@ add the following code snippet:
 
 ![](image55.png)
 
+Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar. Click Apply once you did it.
+
 ![](image56.png)
 
-Click ** **![](image57.png).
-
-Click .
 
 ![](image58.png)
 

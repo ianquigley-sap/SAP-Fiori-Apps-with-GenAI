@@ -40,3 +40,11 @@ There are no special requirements to follow the exercises in this repository.
 - [Exercise 4 - Other sample images for generation](exercises/ex4#exercise-4---other-sample-images-for-generation)
   - [Exercise 4.1 Using the other sample images](exercises/ex4#exercise-41-using-the-other-sample-images)
   - [Exercise 4.2 Use your own images/sketches](exercises/ex4#exercise-42-use-your-own-imagessketches)
+
+- [Exercise 5 - Generation and extending an app](exercises/ex5#exercise-5---generation-and-extending-an-app)
+  - [Exercise 5.1 Generate your app](exercises/ex5#exercise-51-generate-your-app)
+  - [Exercise 5.2 Enhance your app](exercises/ex5#exercise-52-enhance-your-app)
+  - [Exercise 5.3 Use Ai to refine Test Data](exercises/ex5#exercise-53-use-ai-to-refine-test-data)
+  - [Exercise 5.4 Flexible column layout](exercises/ex5#exercise-54-flexible-column-layout)
+  - [Exercise 5.5 Accepting the project](exercises/ex5#exercise-55-accepting-the-project)
+  - [Exercise 5.6 Using the Flexible Programming Model](exercises/ex5#exercise-56-using-the-flexible-programming-model)
