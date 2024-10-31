@@ -3,13 +3,13 @@ From Sketch to Productive App: Build SAP Fiori Apps with GenAI
 
 ## Description
 
-This repository contains the material for the Cloud ERP AI hands-on for using generative AI to build SAP Fiori apps.
+This repository contains the material for the SAP Fiori Apps with GenAI (Hands-on) for using generative AI to build SAP Fiori apps.
 
 ## Overview
 
-Welcome to the SAP Fiori tools generative AI hands-on.  In this session we will give you a step-by-step guide to building productive SAP Fiori apps using only generative AI.  You will learn how to create applications from business requirements, and also how you can use images or sketches of your application and see them converted into SAP Fiori apps.
+Welcome to the SAP Fiori tools generative AI hands-on.  In this session we will give you a step-by-step guide to building productive SAP Fiori apps using generative AI and the flexible programming model.  You will learn how to create applications from business requirements, and also how you can use images or sketches of your application and see them converted into SAP Fiori apps.
 
-The generated application will be built from the **SAP Cloud Application Programming Model**, and will contain SAP Fiori apps based on supported floorplans provided by **SAP Fiori Elements for OData V4**.  Furthermore, the generated applications will be fully compliant with **SAP Fiori tools** for further modifications.
+The generated application will be built from the **SAP Cloud Application Programming Model** with **SAP Fiori Elements for OData V4**.  Furthermore, the generated applications will be fully compliant with **SAP Fiori tools** for further modifications.
 
 ## Requirements
 

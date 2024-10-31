@@ -92,7 +92,7 @@ Once this is done, we want to preview the app again to see the newly created col
 
 ![image](ex5img19.png)
 
-## Exercise 5.1 Use Ai to refine Test Data 
+## Exercise 5.3 Use Ai to refine Test Data 
 
  If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button. 
 
@@ -128,7 +128,7 @@ You may see a message in the terminal stating that the port is already in use (f
 
 ![image](ex5img20.png)
 
-## 5.3 Flexible column layout
+## Exercise 5.4 Flexible column layout
 
 As the next step we want to switch the layout of the app to the flexible column layout. <br>
 1. To have more room in the business application studio we can now close the preview.<br>
@@ -151,7 +151,7 @@ Now click on the first line on the object page
 
 ![image](ex5img27.png)
 
-## 5.3 Accepting the project
+## Exercise 5.5 Accepting the project
 
 1. Please press **Accept Project* on the bottom right side of the screen. <br>
 2. Please select the first option from the dropdown **ai-images-sample**
@@ -162,7 +162,7 @@ You now moved you project out of the staging area.
 
 
 
-## 5.3 Using the Flexible Programming Model
+## Exercise 5.6 Using the Flexible Programming Model
 
 Please click one the **SAP Fiori** button in the left hand navigation![](image2.png)
 
