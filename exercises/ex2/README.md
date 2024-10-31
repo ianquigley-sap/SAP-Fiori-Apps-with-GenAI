@@ -39,6 +39,9 @@ Copy the following command and paste it in the terminal. Confirm by pressing the
 ```js
 mkdir /home/user/.fioritools
 ```
+
+If folder already exists please continue with the next step.
+
 ![alt text](ex2img4a2.png)
 
 From the menu select **File -> Add Folder to Workspace...**
