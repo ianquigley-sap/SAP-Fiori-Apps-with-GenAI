@@ -30,20 +30,6 @@ Click **Open** to open SAP Business Application Studio with the new repository
 
 this manual configuration step is only required in the current beta phase of the SAP Fiori AI tools features.
 
-From the menu select **Terminal -> New Terminal**
-
-![alt text](ex2img4a1.png)
-
-Copy the following command and paste it in the terminal. Confirm by pressing the Enter key.
-
-```js
-mkdir /home/user/.fioritools
-```
-
-If folder already exists please continue with the next step.
-
-![alt text](ex2img4a2.png)
-
 From the menu select **File -> Add Folder to Workspace...**
 
 ![Add Folder to Workspace](ex2img4a.png)
@@ -52,7 +38,7 @@ Select folder **/home/user/.fioritools** and press **Ok**.
 
 ![alt text](ex2img4b.png)
 
-Both folders should appear together in a workspace as shown below, which is required For some of the subsequent exercises to work properly.
+Both folders should appear together in a workspace as shown below, which is required for some of the subsequent exercises to work properly.
 
 ![alt text](ex2img4c.png)
 ## Exercise 2.2 Launching the SAP Fiori tools AI Automated Generator with image input
