@@ -135,6 +135,10 @@ Create an app that lists the US presidents
 Create an app that I can use for my pet grooming bookings
 ```
 
+You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), click **Return/Enter** to use any other port for preview
+
+![image](ex2img11.png)
+
 ## Summary
 
 You've now successfully generated a SAP Fiori app using business requirements as input to the AI generator.

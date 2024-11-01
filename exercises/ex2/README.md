@@ -82,7 +82,12 @@ Navigate back to the tab with SAP Business Application Studio, and click **Accep
 
 ![image](ex2img13.png)
 
+If you get a dropdown with a selection please choose the ai-image-samples folder.
+
+![image](ex2img132.png)
+
 Click on the **Explorer** icon and you should have a new folder for the project entitled **ai-created-cap**
+
 
 ![image](ex2img14.png)
 

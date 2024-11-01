@@ -122,6 +122,10 @@ You may see a message in the terminal stating that the port is already in use (f
 
 ![image](ex5img20.png)
 
+You can now see your Ai Mock Data in the preview.
+
+![image](ex5img201.png)
+
 ## Exercise 5.4 Flexible column layout
 
 As the next step we want to switch the layout of the app to the flexible column layout. <br>
@@ -163,7 +167,7 @@ Please click one the **SAP Fiori** button in the left hand navigation![](image2.
 
 ![](image1.png)
 
-Now open the **Open Application Info** ![](image4.png).
+Now open the **Open Application Info** on your most recently created app. Depending if you accomplished all exercises this should be ai-created-cap 5.  ![](image4.png).
 
 ![](image3.png)
 
@@ -172,7 +176,7 @@ paths ![](image6.png).
 
 ![](image5.png)
 
-Click on **Configure page**![](image8.png).
+Click on **Configure page** on the object page. ![](image8.png).
 
 ![](image7.png)
 
@@ -192,17 +196,19 @@ Click **Actions** and ![](image16.png).
 
 ![](image15.png)
 
-1. Click  ![](image18.png).
+1. Type in Bookings in the top input field
+   
+2. Click the ![](image18.png).
 
-2. Then click  ![](image19.png).
+3. Then click  ![](image19.png).
 
 ![](image17.png)
 
-Please fill in the fields shown below
+Please fill in the fields shown below and make sure everything is entered correctly. Then click on **ADD**.
 
 ![](image20.png)
 
-Click the **Preview Application** ![](image22.png).
+We have now successfully created a new custom section. Click the **Preview Application** ![](image22.png).
 
 ![](image21.png)
 
@@ -211,16 +217,20 @@ Go to the input field up top and put in  **cds watch \--openmyapplication/webapp
 
 ![](image23.png)
 
-Switch to your preview tab in your Browser to see your new Bookings section.
+1. Switch to your preview tab in your Browser. 
+2. Click on the first entry of your list report to find our newly created custom section on our object page.
+
+![](image241.png)
+
 
 ![](image25.png)
 
-Switch back from your preview tab to your Business application studio -> Expand **Bookings**![](image27.png).
+Switch back from your preview tab to your Business application studio -> Expand **Bookings** ![](image27.png).
 
 ![](image26.png)
 
 
-Click the **Add** ![](image29.png) button menu.
+Now we want to add a filter to our custom section. Click the **Add** ![](image29.png) button menu.
 
 ![](image28.png)
 
@@ -291,7 +301,7 @@ Switch to your preview tab to see the latest changes to your app.
 
 ![](image50.png)
 
-We will now use code completion to add a building block table \
+Switch back to your Business application studio. We will now use code completion to add a building block table \
 Click **Edit in source code **![](image48.png).
 
 
@@ -321,6 +331,8 @@ Switch to your preview tab to see the result. You can now specify a range in the
 ![](image58.png)
 
 
+## Summary
 
+You now have completed the Hands-on.Thank you very much for participating.
 
 
