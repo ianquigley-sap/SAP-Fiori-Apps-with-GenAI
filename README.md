@@ -16,7 +16,7 @@ The generated application will be built from the **SAP Cloud Application Program
 
 ## Requirements
 
-<span style="color:red">**NOTE:  BAS is only supported on Chrome.  Please ensure you use one of these browsers.** </span>
+<span style="color:red">**NOTE:  BAS Ai is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
 
 ## Exercises
 

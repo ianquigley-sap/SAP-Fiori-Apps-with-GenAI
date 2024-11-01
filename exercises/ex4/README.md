@@ -33,3 +33,4 @@ This image represents a handwritten sketch with somewhat messy handwriting.  The
 Now it's your turn! On a piece of paper, sketch out the application you would like to generate.  Try and ensure that it represents a tabular list of items, as that best fits the supported floorplans provided by SAP Fiori elements for OData V4.  Take a photo and then upload it to your PC.  From there, you can drag it into the folder in SAP Business Application Studio and generate an application from it.
 
 
+Continue to - [Exercise 5 - Generate an SAP Fiori app from business requirements](../ex5/README.md)

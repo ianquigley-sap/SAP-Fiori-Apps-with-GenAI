@@ -15,8 +15,8 @@ On the SAP Build landing page, click button **Switch Product** in the top right 
 ![Access Dev Space Manager](ex0img0.png)
 ## Creating the Development Space
 
-Your dev space has been precreated for the hands-on session.
-If shown in the dev space manager, continue directly with step [Opening the Development Space](#opening-the-development-space)
+<span style="color:red">Your dev space has been precreated for the hands-on session.
+If your dev space manager shows FioriAppsGenAi, continue directly with step </span> [Opening the Development Space](#opening-the-development-space)
 
 If the **Welcome to** landing page is shown instead, you have to create a new dev space as follows.
 
