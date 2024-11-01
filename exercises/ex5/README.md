@@ -1,7 +1,7 @@
-#  Exercise 5 - Generation and extending an app 
+#  Exercise 5 - Generate and enhance an app 
 
 
-In this exercise we will put your learning from the other exercises to the test! You will re-use your skills of generating a Fiori app from a picture, but this time we will create ai generated mock data and extend the app with the flexible programming model.
+In this exercise we will put your learning from the other exercises to the test! You will re-use your skills of generating a Fiori app from a picture, but this time we will create ai generated mock data and enhance the app with the flexible programming model.
 
 Please be aware that you need to complete: [Exercise 0 - Getting Started - Setting up your Development Environment
 ](../ex0/README.md) and [Exercise 2.1 - Generate an SAP Fiori app from an image](../ex2/README.md)  before you can start Exercise 5.
@@ -103,7 +103,7 @@ Once this is done, we want to preview the app again to see the newly created col
  ![image](ex5img22.png)
 
 
-To reload the app with our gernerated Ai Mock Data we have to go to our Terminal at the bottom of the page. <br>
+To reload the app with our generated Ai Mock Data we have to go to our Terminal at the bottom of the page. <br>
 Click inside of the terminal field and press:<br>
 **control + c (on Mac)**<br>
 **STRG + c (on Windwos)**<br>
@@ -134,7 +134,7 @@ As the next step we want to switch the layout of the app to the flexible column 
 
 ![image](ex5img24.png)
 
-Navigate to the Felxible Column Layout on the right side. Switch from the **Standard Layout** to the **Fexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
+Navigate to the Felxible Column Layout on the right side. Switch from the **Standard Layout** to the **Flexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
 
 ![image](ex5img25.png)
 
@@ -213,7 +213,7 @@ We have now successfully created a new custom section. Click the **Preview Appli
 ![](image21.png)
 
 
-Go to the input field up top and put in  **cds watch \--openmyapplication/webapp/index.html?sap-ui-xx-viewCache=false** 
+Choose the second entry ->  **cds watch \--openmyapplication/webapp/index.html?sap-ui-xx-viewCache=false** 
 
 ![](image23.png)
 
