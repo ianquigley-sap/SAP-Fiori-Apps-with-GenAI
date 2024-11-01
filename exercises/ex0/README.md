@@ -4,12 +4,22 @@ As a particpant of the hands-on, you should already be setup with access to the 
 
 ## Accessing SAP Business Application Studio
 
-Navigate to https://bcjoule.cry10cf.int.applicationstudio.cloud.sap/index.html?externalRedirect=true
+Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
+
+<span style="color:red">**NOTE:  BAS Ai is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
 
 
-**NOTE:  BAS is only supported on Chrome and Firefox.  Please ensure you use one of these browsers.**
+## Accessing the Dev Space Manager
 
+On the SAP Build landing page, click button **Switch Product** in the top right corner and select **Dev Space Manager**.
+![Access Dev Space Manager](ex0img0.png)
 ## Creating the Development Space
+
+<span style="color:red">Your dev space has been precreated for the hands-on session.
+If your dev space manager shows FioriAppsGenAi, continue directly with step </span> [Opening the Development Space](#opening-the-development-space)
+
+If the **Welcome to** landing page is shown instead, you have to create a new dev space as follows.
+
 
 Click on the button **Create Dev Space**.
 
@@ -23,7 +33,11 @@ In the lower right corner of the page press button **Create Dev Space**.
 
 ![Confirm](ex0img3.png)
 
-Once your development space has status running, click on the development space name to open it.  This can take some time.
+## Opening the Development Space
+
+Make sure your development space has status running. If stopped, click the start button. 
+![Restart Dev Space](ex0img4a.png)
+Once running, click on the development space name to open it.  This can take some time.
 
 ![Enter Dev Space](ex0img4.png)
 

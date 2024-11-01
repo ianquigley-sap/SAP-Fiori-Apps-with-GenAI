@@ -22,13 +22,28 @@ Choose the projects folder for the repository location and click **OK**
 
 ![image](ex2img3.png)
 
-Click **Open** to open SAP Business Application Studio with the new repostiory
+Click **Open** to open SAP Business Application Studio with the new repository
 
 ![image](ex2img4.png)
 
+### Enable Additional AI Features with Fiori Tools
 
+this manual configuration step is only required in the current beta phase of the SAP Fiori AI tools features.
+
+From the menu select **File -> Add Folder to Workspace...**
+
+![Add Folder to Workspace](ex2img4a.png)
+
+Select folder **/home/user/.fioritools** and press **Ok**.
+
+![alt text](ex2img4b.png)
+
+Both folders should appear together in a workspace as shown below, which is required for some of the subsequent exercises to work properly.
+
+![alt text](ex2img4c.png)
 ## Exercise 2.2 Launching the SAP Fiori tools AI Automated Generator with image input
 
+Click on the **SAP Fiori** icon in the left hand side panel.\
 Similar to exercise 1, ensure that the SAP Fiori tools panel is open with the AI Automated Generator displayed (you can close the **Application Modeler** and **Information** sections):
 
 ![image](ex2img5.png)
@@ -67,7 +82,12 @@ Navigate back to the tab with SAP Business Application Studio, and click **Accep
 
 ![image](ex2img13.png)
 
+If you get a dropdown with a selection please choose the ai-image-samples folder.
+
+![image](ex2img132.png)
+
 Click on the **Explorer** icon and you should have a new folder for the project entitled **ai-created-cap**
+
 
 ![image](ex2img14.png)
 
