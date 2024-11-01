@@ -1,7 +1,7 @@
 #  Exercise 5 - Generation and extending an app 
 
 
-In this exercise you will re-use your skills of generating a Fiori app from a picture. This time we will create ai generated mock data and extend the app with the flexible programming model.
+In this exercise we will put your learning from the other exercises to the test! You will re-use your skills of generating a Fiori app from a picture, but this time we will create ai generated mock data and extend the app with the flexible programming model.
 
 Please be aware that you need to complete: [Exercise 0 - Getting Started - Setting up your Development Environment
 ](../ex0/README.md) and [Exercise 2.1 - Generate an SAP Fiori app from an image](../ex2/README.md)  before you can start Exercise 5.
@@ -88,7 +88,7 @@ In the Columns section you now can see our newly added column (Business & Destin
 
 ![image](ex5img18.png)
 
-Once this is done, we want to preview the app again to see the newly created columns in action. Switch to your **preview** tab in your browser and click **1.GO** (Start in German). This will reload the app and reveal the new columns Business and Destination. **(If you dont see the columns after pressing **GO** please try the next step)**
+Once this is done, we want to preview the app again to see the newly created columns in action. Switch to your **preview** tab in your browser and reload the tab with STRG+R (Windows) or COMMAND+R (Mac). This will reload the app and reveal the new columns Business and Destination.
 
 ![image](ex5img19.png)
 
@@ -102,11 +102,8 @@ Once this is done, we want to preview the app again to see the newly created col
 
  ![image](ex5img22.png)
 
-You can now switch back to the preview tab in your browser click **Go** and you should see the Ai refined Test Data.
 
-![image](ex5img23.png)
-
-In case you the reload does not work please switch to your **Business Application Studio** tab and go to your Terminal at the bottom of the page. <br>
+To reload the app with our gernerated Ai Mock Data we have to go to our Terminal at the bottom of the page. <br>
 Click inside of the terminal field and press:<br>
 **control + c (on Mac)**<br>
 **STRG + c (on Windwos)**<br>
@@ -119,9 +116,6 @@ user: fiori-tools-ai $**
 Now you can press the **Preview** button on the left side again. 
 
 ![image](ex5img192.png)
-
-If you see that Port 4004 is already in use please see the next step.
-
 
 
 You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), click **Return/Enter** to use any other port for preview
