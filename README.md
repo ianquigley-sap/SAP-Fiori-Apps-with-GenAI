@@ -10,13 +10,13 @@ For particpants with their own laptop, please scan this QR code to get to the re
 
 ## Overview
 
-Welcome to the SAP Fiori tools generative AI hands-on.  In this session we will give you a step-by-step guide to building productive SAP Fiori apps using generative AI and the flexible programming model.  You will learn how to create applications from business requirements, and also how you can use images or sketches of your application and see them converted into SAP Fiori apps.
+Welcome to the SAP Fiori tools generative AI hands-on.  In this session we will give you a step-by-step guide to building productive SAP Fiori apps using generative AI and the Flexible Programming Model.  You will learn how to create applications from business requirements, and also how you can use images or sketches of your application and see them converted into SAP Fiori apps.
 
 The generated application will be built from the **SAP Cloud Application Programming Model** with **SAP Fiori Elements for OData V4**.  Furthermore, the generated applications will be fully compliant with **SAP Fiori tools** for further modifications.
 
 ## Requirements
 
-There are no special requirements to follow the exercises in this repository.
+<span style="color:red">**NOTE:  BAS is only supported on Chrome.  Please ensure you use one of these browsers.** </span>
 
 ## Exercises
 
