@@ -6,7 +6,7 @@ As a particpant of the hands-on, you should already be setup with access to the 
 
 Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
-<span style="color:red">**NOTE:  BAS Ai is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
+<span style="color:red">**NOTE:  BAS AI is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
 
 
 ## Accessing the Dev Space Manager
@@ -16,7 +16,7 @@ On the SAP Build landing page, click button **Switch Product** in the top right 
 ## Creating the Development Space
 
 <span style="color:red">Your dev space has been precreated for the hands-on session.
-If your dev space manager shows FioriAppsGenAi, continue directly with step </span> [Opening the Development Space](#opening-the-development-space)
+If your dev space manager shows FioriAppsGenAI, continue directly with step </span> [Opening the Development Space](#opening-the-development-space)
 
 If the **Welcome to** landing page is shown instead, you have to create a new dev space as follows.
 
@@ -41,7 +41,7 @@ Once running, click on the development space name to open it.  This can take som
 
 ![Enter Dev Space](ex0img4.png)
 
-Clixk **OK** in the popup window to accept the tracking settings in the newly created dev space.
+Click **OK** in the popup window to accept the tracking settings in the newly created dev space.
 
 ![image](ex0img5.png)
 

@@ -2,7 +2,7 @@
 
 In this exercise, we will create an **SAP Cloud Application Programing** (CAP) project together with an SAP Fiori app using a floorplan provided by SAP Fiori elements for OData V4. The project will be automatically generated from a business requirements document that you will provide.
 
-## Exercise 1.1 Launching the SAP Fiori tools AI Automated Generator
+## Exercise 1.1 Launching the SAP Fiori tools AI Project Accelerator
 
 In the **SAP Business Application Studio**, the **projects** folder should be open from the last exercise.  Click on the **SAP Fiori** icon in the left hand side panel.
 
@@ -12,7 +12,7 @@ In the **SAP Business Application Studio**, the **projects** folder should be op
 
 ![image](ex1img2.png)
 
-The **SAP Fiori** panel launch, you can close the **Application Modeler** and **Information** sections, and keep the **Automated Generator** section open
+The **SAP Fiori** panel launch, you can close the **Application Modeler** and **Information** sections, and keep the **Project Accelerator** section open
 
 ![image](ex1img3.png)
 

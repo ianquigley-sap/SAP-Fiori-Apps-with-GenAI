@@ -14,7 +14,7 @@ You should then see a document that includes a mixture of text and images.  This
 
 ![image](ex3img2.png)
 
-Similar to the previous exercises, click on the SAP Fiori tools icon to open the panel with the AI Automated Generator displayed (you can close the **Application Modeler** and **Information** sections):
+Similar to the previous exercises, click on the SAP Fiori tools icon to open the panel with the AI Project Accelerator displayed (you can close the **Application Modeler** and **Information** sections):
 
 ![image](ex3img3.png)
 
