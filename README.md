@@ -27,7 +27,7 @@ The generated application will be built from the **SAP Cloud Application Program
   - [Enable Generative AI features with SAP Fiori Tools](exercises/ex0#enable-generative-ai-features-with-sap-fiori-tools)
 
 - [Exercise 1 - Generate an SAP Fiori app from business requirements](exercises/ex1#exercise-1---generate-an-sap-fiori-elements-application-from-business-requirements)
-  - [Exercise 1.1 Launching the SAP Fiori tools AI Project Accelerator](exercises/ex1#exercise-11-launching-the-sap-fiori-tools-ai-project-accelerator))
+  - [Exercise 1.1 Launching the SAP Fiori tools AI Project Accelerator](exercises/ex1#exercise-11-launching-the-sap-fiori-tools-ai-project-accelerator)
   - [Exercise 1.2 Providing a business requirements document to the Generator](exercises/ex1#exercise-12-providing-a-business-requirements-document-to-the-generator)
   - [Exercise 1.3 Reviewing the generated application](exercises/ex1#exercise-13-reviewing-the-generated-application)
 
