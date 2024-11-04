@@ -41,10 +41,10 @@ Select folder **/home/user/.fioritools** and press **Ok**.
 Both folders should appear together in a workspace as shown below, which is required for some of the subsequent exercises to work properly.
 
 ![alt text](ex2img4c.png)
-## Exercise 2.2 Launching the SAP Fiori tools AI Automated Generator with image input
+## Exercise 2.2 Launching the SAP Fiori tools AI Project Accelerator with image input
 
 Click on the **SAP Fiori** icon in the left hand side panel.\
-Similar to exercise 1, ensure that the SAP Fiori tools panel is open with the AI Automated Generator displayed (you can close the **Application Modeler** and **Information** sections):
+Similar to exercise 1, ensure that the SAP Fiori tools panel is open with the AI Project Accelerator displayed (you can close the **Application Modeler** and **Information** sections):
 
 ![image](ex2img5.png)
 

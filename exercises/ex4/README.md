@@ -6,7 +6,7 @@ In this exercise, we will describe how the Fiori tool AI Generator can inspect o
 
 ## Exercise 4.1 Using the other sample images
 
-Expand the **samples** folder and you should see 3 images available to you.  Click on an image to examine the contents.  Take one of these images and upload to the SAP Fiori tools Automated Generator and preview what is developed.
+Expand the **samples** folder and you should see 3 images available to you.  Click on an image to examine the contents.  Take one of these images and upload to the SAP Fiori tools Project Accelerator and preview what is developed.
 
 ![image](ex4img1.png)
 
