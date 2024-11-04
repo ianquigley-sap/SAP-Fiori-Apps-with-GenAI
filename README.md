@@ -16,7 +16,7 @@ The generated application will be built from the **SAP Cloud Application Program
 
 ## Requirements
 
-<span style="color:red">**NOTE:  BAS Ai is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
+<span style="color:red">**NOTE:  BAS AI is only supported on Chrome.  Please ensure you use the Chrome Browser.** </span>
 
 ## Exercises
 
@@ -44,7 +44,7 @@ The generated application will be built from the **SAP Cloud Application Program
   - [Exercise 4.1 Using the other sample images](exercises/ex4#exercise-41-using-the-other-sample-images)
   - [Exercise 4.2 Use your own images/sketches](exercises/ex4#exercise-42-use-your-own-imagessketches)
 
-- [Exercise 5 - Generation and extending an app](exercises/ex5#exercise-5---generation-and-extending-an-app)
+- [Exercise 5 - Generate and enhance an app](exercises/ex5#exercise-5---generate-and-enhance-an-app)
   - [Exercise 5.1 Generate your app](exercises/ex5#exercise-51-generate-your-app)
   - [Exercise 5.2 Enhance your app](exercises/ex5#exercise-52-enhance-your-app)
   - [Exercise 5.3 Use Ai to refine Test Data](exercises/ex5#exercise-53-use-ai-to-refine-test-data)

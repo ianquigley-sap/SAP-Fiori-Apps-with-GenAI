@@ -37,16 +37,17 @@ The preview of the newly generated app should look like the following picture.
 
 ## Exercise 5.2 Enhance your app
 
-As a next step we want to enhance our Ai generated app. To do this switch back from your **Preview** tab in your browser to your **Business Application Studio** tab again. 
+As a next step we want to enhance our AI generated app. To do this switch back from your **Preview** tab in your browser to your **Business Application Studio** tab again. 
 Now look for your **Staging Area** section in the left hand navigation. Now hover your mouse over **STAGING AREA** to reveal the **App Modeler** button. Please press **Start App Modeler**.
 
 ![image](ex5img7.png)
 
-Now you can see the page map for our Ai generated Travel app. Please check if you can see the **Ai Generator staging area** sign up top. If this is the case, press the edit button on the list report.
+Now you can see the page map for our AI generated Travel app. Please check if you can see the **AI Generator staging area** sign up top. If this is the case, press the edit button on the list report.
 
 ![image](ex5img8.png)
 
-As the next step, please find the columns section and press the **Add column** button.
+As the next step, we want to add an additional column that indicates wether it is a business flight, and another one showing the flight destination.\
+Please find the columns section and press the **Add column** button.
 
 ![image](ex5img9.png)
 
@@ -281,6 +282,7 @@ Click **Edit in source code** ![](image48.png).
 
 ![](image47.png)
 
+For filter bar field **Flight Date**, we will now enable the usage of semantic date values, such as **Today** or **Last Week**, by applying annotation FilterRestrictions.AllowedExpressions as described in [the documentation](https://ui5.sap.com/#/topic/fef65d03d01a4b2baca28983a5449cf7).\
 Please copy the Code snippet below and paste it on the exact position that is shown in the picture:
 
 ```
