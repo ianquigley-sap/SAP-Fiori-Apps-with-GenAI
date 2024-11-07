@@ -213,7 +213,7 @@ Please fill in the fields as shown below and make sure everything is entered cor
 
 ![](image20.png)
 
-We have now successfully created a new custom section extending the app based on an XMLfragment.\
+We have now successfully created a new custom section extending the app based on an XMLfragment. **Please make sure it shows (Custom Section) after Bookings. If this is not the case please reload your tab.**  
 We need to make sure that the browser view cache is deactivated during testing our development, so that changes applied to the xml fragment get properly updated when refreshing the UI.\
 For this, we will use the watch script that has been added to file **package.json** by the app generator. The script contains additional parameter **sap-ui-xx-viewCache=false** added to the app start Url.
 
@@ -351,14 +351,14 @@ In the second step of the guide, fill in the required fields as depicted below.
 ```
 <macros:Table id="Table" metaPath="/Travels/bookings/@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" headerVisible="true" isSearchable="true" selectionMode="Single" type="ResponsiveTable" variantManagement="None"/>
 ```
-1. Click on **Exit Guide**
+2. Click on **Exit Guide**
 
 
 
 ![](image538.png)
 
 Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar.\
-1. Select a travel in the List Report to open the travel details in the object page.
+1. Select a travel entry in the List Report to open the travel details in the object page.
 2. In the **Bookings** section, open filter field **Flight Date** and select a date range.
 3. Click **Apply**.
 
