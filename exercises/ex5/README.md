@@ -164,9 +164,9 @@ You now moved you project out of the staging area.
 ## Exercise 5.6 Using the Flexible Programming Model
 
 The available [SAP Fiori elements floorplans](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2b2b12e708944d85a40d087194cc1edd.html) for OData V4 cover most business scenarios that customers encounter with SAP. In fact, SAP uses these SAP Fiori elements floorplans to create roughly 80% of new SAP S/4HANA apps.\
-If these floorplans do not meet your needs, the flexible programming model provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
+If these floorplans do not meet your needs, the [flexible programming model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction) provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
 and leverage controller extensions in order to fine-tune the behaviour of your app.\
-For our scenario we want to combine a filter bar and a table in a custom section, enabling the user to filter the bookings of a selected travel.
+For our scenario we want to combine building blocks filter bar and table in a custom section, enabling the user to set a filter on the bookings of a selected travel.
 
 Please click one the **SAP Fiori** button in the left hand navigation![](image2.png)
 
@@ -177,12 +177,11 @@ Now open the **Open Application Info** on your most recently created app. Depend
 
 ![](image3.png)
 
-Click on open the page map that shows application pages and navigation
-paths ![](image6.png).
+Click on **Open Page Map**.
 
 ![](image5.png)
 
-Click on **Configure page** on the object page. ![](image8.png).
+Click on **Configure page** for the object page. ![](image8.png).
 
 ![](image7.png)
 
@@ -198,26 +197,29 @@ Next click on the **Add Sections** ![](image14.png) menu item.
 
 ![](image13.png)
 
-Click **Actions** and ![](image16.png).
+Click **Actions** and select ![](image16.png).
 
 ![](image15.png)
 
-1. Type in Bookings in the top input field
+1. Type in **Bookings** as a title.
    
-2. Click the ![](image18.png).
+2. Click ![](image18.png) to generate a translatable text key.
 
-3. Then click  ![](image19.png).
+3. Click  ![](image19.png).
 
 ![](image17.png)
 
-Please fill in the fields shown below and make sure everything is entered correctly. Then click on **ADD**.
+Please fill in the fields as shown below and make sure everything is entered correctly. Then click on **ADD**.
 
 ![](image20.png)
 
-We have now successfully created a new custom section. Click the **Preview Application** ![](image22.png).
+We have now successfully created a new custom section, extending the app with a custom section based on an XMLfragment.\
+We need to make sure that the browser view cache is deactivated during testing our development, so that changes applied to the xml fragment get properly updated when refreshing the UI.\
+For this, we will use the watch script that has been added to file **package.json** by the app generator. The script contains additional parameter **sap-ui-xx-viewCache=false** added to the app start Url.
+
+In the Application Modeller pane, click **Preview Application** ![](image22.png).
 
 ![](image21.png)
-
 
 Choose the second entry ->  **cds watch \--openmyapplication/webapp/index.html?sap-ui-xx-viewCache=false** 
 
