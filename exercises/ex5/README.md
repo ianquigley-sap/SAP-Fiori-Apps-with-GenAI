@@ -351,14 +351,14 @@ In the second step of the guide, fill in the required fields as depicted below.
 ```
 <macros:Table id="Table" metaPath="/Travels/bookings/@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" headerVisible="true" isSearchable="true" selectionMode="Single" type="ResponsiveTable" variantManagement="None"/>
 ```
-1. Click on **Exit Guide**
+2. Click on **Exit Guide**
 
 
 
 ![](image538.png)
 
 Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar.\
-1. Select a travel in the List Report to open the travel details in the object page.
+1. Select a travel entry in the List Report to open the travel details in the object page.
 2. In the **Bookings** section, open filter field **Flight Date** and select a date range.
 3. Click **Apply**.
 
