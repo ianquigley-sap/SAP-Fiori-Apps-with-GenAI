@@ -303,38 +303,60 @@ Switch to your preview tab to see the latest changes to your app. If you cant se
 
 ![](image50.png)
 
-Switch back to your Business application studio. We will now use code completion to add a building block table \
-Click **Edit in source code **![](image48.png).
+Switch back to your Business application studio. We will now use our Guided Development to add our Building Block Table.
+Navigate to the **SAP Fiori** section.
 
+![](image5321.png)
 
+Click on **Open Application Info** on your latest app.
 
-![](image51.png)
+![](image3.png)
 
-Remove this line.
+Click on **Guided Development**
 
-![](image52.png)
+![](image531.png)
 
-We will now insert building block Table from namespace sap.fe.macros into the XML view.
+You can close the **Application Info** to give you more room.
 
-You can use UI5 Language Support extension for that purpose which supports the XML modelling of building blocks.
+![](image532.png)
 
-Insert an empty line below macros:FilterBar
-Type in <macros.
-Activate language support by pressing keys ctrl+space (Mac OS: cmd+space)
-Select Table from namespace sap.fe.macros.
+1. Now use the search on the top right hand of the screen and type in **"Table Building Block"**
+2. Click on **"Add a table building block"**
 
+![](image533.png)
 
-add the following code snippet:
+**Start the guide**
 
+![](image534.png)
+
+1. Select your CDS File / Service / Entity like its shown in the picture
+2. Click Next
+
+![](image535.png)
+
+Fill in the required fields from the drop down
+
+![](image536.png)
+
+**Scroll down** and click **Insert Snippet**
+
+![](image537.png)
+
+1. This will open up your **Bookings.fragment.xml** where we just added our Code Snippet. It should look like this:
 ```
-    <macros:Table id="bookingsTable" metaPath="bookings/@com.sap.vocabularies.UI.v1.LineItem#Travels_bookings" filterBar="FilterBar"/>
+<macros:Table id="Table" metaPath="/Travels/bookings/@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" headerVisible="true" isSearchable="true" selectionMode="Single" type="ResponsiveTable" variantManagement="None"/>
 ```
+2. Click on **Exit Guide**
 
-![](image55.png)
+
+
+![](image538.png)
 
 Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar. Click Apply once you did it.
 
 ![](image56.png)
+
+Click on **Team Building Retreat** and select dates and range.
 
 
 ![](image58.png)
