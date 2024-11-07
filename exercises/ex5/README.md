@@ -308,6 +308,7 @@ Switch to your preview tab to see the latest changes to your app. If you cant se
 ![](image50.png)
 
 Switch back to your Business application studio. We will now use **Guided Development** to add a table building block.\
+Guided development allows the user to walk through the steps required to implement a specific functionality in the Fiori element application.\
 Click on the **SAP Fiori** icon in the left hand side panel.
 
 ![](image5321.png)
