@@ -163,6 +163,11 @@ You now moved you project out of the staging area.
 
 ## Exercise 5.6 Using the Flexible Programming Model
 
+The available [SAP Fiori elements floorplans](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2b2b12e708944d85a40d087194cc1edd.html) for OData V4 cover most business scenarios that customers encounter with SAP. In fact, SAP uses these SAP Fiori elements floorplans to create roughly 80% of new SAP S/4HANA apps.\
+If these floorplans do not meet your needs, the flexible programming model provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
+and leverage controller extensions in order to fine-tune the behaviour of your app.\
+For our scenario we want to combine a filter bar and a table in a custom section, enabling the user to filter the bookings of a selected travel.
+
 Please click one the **SAP Fiori** button in the left hand navigation![](image2.png)
 
 
@@ -181,7 +186,7 @@ Click on **Configure page** on the object page. ![](image8.png).
 
 ![](image7.png)
 
-Press the **Delete** button ![](image10.png) to delete Bookings.
+Press the **Delete** button ![](image10.png) to delete section **Bookings**.
 
 ![](image9.png)
 
@@ -303,7 +308,7 @@ Switch to your preview tab to see the latest changes to your app. If you cant se
 
 ![](image50.png)
 
-Switch back to your Business application studio. We will now use our Guided Development to add our Building Block Table.
+Switch back to your Business application studio. We will now use Guided Development to add a Building Block Table.\
 Navigate to the **SAP Fiori** section.
 
 ![](image5321.png)
