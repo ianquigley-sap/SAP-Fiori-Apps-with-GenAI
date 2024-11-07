@@ -299,7 +299,7 @@ Please copy the Code snippet below and paste it on the exact position that is sh
 
 ![](image49.png)
 
-Switch to your preview tab to see the latest changes to your app.
+Switch to your preview tab to see the latest changes to your app. If you cant see the latest changes please reload your browser window.
 
 ![](image50.png)
 
@@ -314,7 +314,14 @@ Remove this line.
 
 ![](image52.png)
 
+We will now insert building block Table from namespace sap.fe.macros into the XML view.
 
+You can use UI5 Language Support extension for that purpose which supports the XML modelling of building blocks.
+
+Insert an empty line below macros:FilterBar
+Type in <macros.
+Activate language support by pressing keys ctrl+space (Mac OS: cmd+space)
+Select Table from namespace sap.fe.macros.
 
 
 add the following code snippet:

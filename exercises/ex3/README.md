@@ -36,7 +36,7 @@ The text of the file will be populated into the text box.  Click **Generate** to
 
 ## Exercise 3.2 Reviewing the generate application from a business requirement document with images
 
-After generation completes, click on the **Preview** button to launch a preview of the generated application.  
+After generation completes, click on the **Preview** button to launch a preview of the generated application.
 
 ![image](ex3img8.png)
 
@@ -44,7 +44,7 @@ You may see a message in the terminal stating that the port is already in use (f
 
 ![image](ex3img9.png)
 
-A new browser tab should open with the generated application. 
+A new browser tab should open with the generated application. <br>
 ![image](ex3img10.png)
 
 Select an item from the list and the object page should display with the details:
