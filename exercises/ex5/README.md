@@ -163,6 +163,11 @@ You now moved you project out of the staging area.
 
 ## Exercise 5.6 Using the Flexible Programming Model
 
+The available [SAP Fiori elements floorplans](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2b2b12e708944d85a40d087194cc1edd.html) for OData V4 cover most business scenarios that customers encounter with SAP. In fact, SAP uses these SAP Fiori elements floorplans to create roughly 80% of new SAP S/4HANA apps.\
+If these floorplans do not meet your needs, the [flexible programming model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction) provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
+and leverage controller extensions in order to fine-tune the behaviour of your app.\
+For our scenario we want to combine building blocks filter bar and table in a custom section, enabling the user to set a filter on the bookings of a selected travel.
+
 Please click one the **SAP Fiori** button in the left hand navigation![](image2.png)
 
 
@@ -172,16 +177,15 @@ Now open the **Open Application Info** on your most recently created app. Depend
 
 ![](image3.png)
 
-Click on open the page map that shows application pages and navigation
-paths ![](image6.png).
+Click on **Open Page Map**.
 
 ![](image5.png)
 
-Click on **Configure page** on the object page. ![](image8.png).
+Click on **Configure page** for the object page. ![](image8.png).
 
 ![](image7.png)
 
-Press the **Delete** button ![](image10.png) to delete Bookings.
+Press the **Delete** button ![](image10.png) to delete section **Bookings**.
 
 ![](image9.png)
 
@@ -193,26 +197,29 @@ Next click on the **Add Sections** ![](image14.png) menu item.
 
 ![](image13.png)
 
-Click **Actions** and ![](image16.png).
+Click **Actions** and select ![](image16.png).
 
 ![](image15.png)
 
-1. Type in Bookings in the top input field
+1. Type in **Bookings** as a title.
    
-2. Click the ![](image18.png).
+2. Click ![](image18.png) to generate a translatable text key.
 
-3. Then click  ![](image19.png).
+3. Click  ![](image19.png).
 
 ![](image17.png)
 
-Please fill in the fields shown below and make sure everything is entered correctly. Then click on **ADD**.
+Please fill in the fields as shown below and make sure everything is entered correctly. Then click on **ADD**.
 
 ![](image20.png)
 
-We have now successfully created a new custom section. Click the **Preview Application** ![](image22.png).
+We have now successfully created a new custom section extending the app based on an XMLfragment.\
+We need to make sure that the browser view cache is deactivated during testing our development, so that changes applied to the xml fragment get properly updated when refreshing the UI.\
+For this, we will use the watch script that has been added to file **package.json** by the app generator. The script contains additional parameter **sap-ui-xx-viewCache=false** added to the app start Url.
+
+In the Application Modeller pane, click **Preview Application** ![](image22.png).
 
 ![](image21.png)
-
 
 Choose the second entry ->  **cds watch \--openmyapplication/webapp/index.html?sap-ui-xx-viewCache=false** 
 
@@ -226,30 +233,34 @@ Choose the second entry ->  **cds watch \--openmyapplication/webapp/index.html?s
 
 ![](image25.png)
 
-Switch back from your preview tab to your Business application studio -> Expand **Bookings** ![](image27.png).
+Switch back from your preview tab to the page editor in your Business application studio and expand custom section **Bookings**.
 
 ![](image26.png)
 
 
-Now we want to add a filter to our custom section. Click the **Add** ![](image29.png) button menu.
+Now we want to add building block filter to our custom section.\
+Click button **Add** ![](image29.png).
 
 ![](image28.png)
 
-Click **Actions** and press![](image31.png).
+Select ![](image31.png).
 
 
 ![](image30.png)
 
-1. Click ![](image33.png) to reveal the dropdown.
 
-2. Choose ![](image34.png).
+1. Click ![](image33.png) to reveal the dropdown for **Aggregation Path**.
+
+2. Select ![](image34.png).\
+   This ensures that the filter building block will be added at the corresponding position in the XML fragment.
 
 ![](image32.png)
 
-Click Add
+Click **Add**.
 
 ![](image35.png)
 
+We will now define a filter field to be shown in the filter bar.\
 Click **Add Filter Fields** ![](image14.png).
 
 ![](image36.png)
@@ -257,32 +268,25 @@ Click **Add Filter Fields** ![](image14.png).
 1. Click ![](image38.png) to reveal the dropdown.
 
 2. Check the radiobox for ![](image39.png).
-3. Click Add
+3. Click Add.
 
 ![](image37.png)
 
-1. Click the ![](image41.png) entry to select it.
+1. Open the filter bar properties panel by clicking entry ![](image41.png).
 
-2. Find the Live Mode section and click the ![](image42.png)  button opens a dropdown list.
-
-3. Clicking the entry ![](image43.png) selects it.
+2. Search for property **Live Mode** and seleset it to **True**.
 
 ![](image40.png)
 
-1. Clicking the entry ![](image41.png)
-to select it.
-
-2. Find the show **Show Clear Button** section and click the ![](image42.png) button opens a dropdown list.
-
-3. Clicking the entry ![](image43.png) selects it.
+1. Search for property **Show Clear Button** and set it to **True**.
 
 ![](image44.png)
 
-Click **Edit in source code** ![](image48.png).
+In the page editor, click **Edit in source code** ![](image48.png) for filter field **Flight Date** to navigate to the corresponding annotation.
 
 ![](image47.png)
 
-For filter bar field **Flight Date**, we will now enable the usage of semantic date values, such as **Today** or **Last Week**, by applying annotation FilterRestrictions.AllowedExpressions as described in [the documentation](https://ui5.sap.com/#/topic/fef65d03d01a4b2baca28983a5449cf7).\
+For the filter field, we will now enable the usage of semantic date values, such as **Today** or **Last Week**, by applying annotation ****FilterRestrictions.AllowedExpressions** as described in [the documentation](https://ui5.sap.com/#/topic/fef65d03d01a4b2baca28983a5449cf7).\
 Please copy the Code snippet below and paste it on the exact position that is shown in the picture:
 
 ```
@@ -299,36 +303,68 @@ Please copy the Code snippet below and paste it on the exact position that is sh
 
 ![](image49.png)
 
-Switch to your preview tab to see the latest changes to your app.
+Switch to your preview tab to see the latest changes to your app. If you cant see the latest changes please reload your browser window.
 
 ![](image50.png)
 
-Switch back to your Business application studio. We will now use code completion to add a building block table \
-Click **Edit in source code **![](image48.png).
+Switch back to your Business application studio. We will now use **Guided Development** to add a table building block.\
+Guided development allows the user to walk through the steps required to implement a specific functionality in the Fiori element application.\
+Click on the **SAP Fiori** icon in the left hand side panel.
 
+![](image5321.png)
 
+Click on **Open Application Info** on your latest app.
 
-![](image51.png)
+![](image3.png)
 
-Remove this line.
+Click on **Open Guided Development**.
 
-![](image52.png)
+![](image531.png)
 
+Close the **Application Info** tab to free up more space in the editor.
 
+![](image532.png)
 
+1. Now use the search on the top right hand of the screen and type in **"Table Building Block"**
+2. Click on **"Add a table building block"**
 
-add the following code snippet:
+![](image533.png)
 
+**Start the guide**
+
+![](image534.png)
+
+1. In the first step of the guide, fill in fields **CDS File / Service / Entity** as depicted below.
+2. Click Next.
+
+![](image535.png)
+
+In the second step of the guide, fill in the required fields as depicted below.
+
+![](image536.png)
+
+**Scroll down** and click **Insert Snippet**.
+
+![](image537.png)
+
+1. File **Bookings.fragment.xml** is opened, showing the table building block added to the defined aggregation path position. It should look like this:
 ```
-    <macros:Table id="bookingsTable" metaPath="bookings/@com.sap.vocabularies.UI.v1.LineItem#Travels_bookings" filterBar="FilterBar"/>
+<macros:Table id="Table" metaPath="/Travels/bookings/@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" headerVisible="true" isSearchable="true" selectionMode="Single" type="ResponsiveTable" variantManagement="None"/>
 ```
+1. Click on **Exit Guide**
 
-![](image55.png)
 
-Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar. Click Apply once you did it.
+
+![](image538.png)
+
+Switch to your preview tab to see the result. You can now specify a range in the newly added filter bar.\
+1. Select a travel in the List Report to open the travel details in the object page.
+2. In the **Bookings** section, open filter field **Flight Date** and select a date range.
+3. Click **Apply**.
 
 ![](image56.png)
 
+The filter is applied to the bookings table.
 
 ![](image58.png)
 
