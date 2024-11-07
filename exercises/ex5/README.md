@@ -213,7 +213,7 @@ Please fill in the fields as shown below and make sure everything is entered cor
 
 ![](image20.png)
 
-We have now successfully created a new custom section extending the app based on an XMLfragment.\
+We have now successfully created a new custom section extending the app based on an XMLfragment. **Please make sure it shows (Custom Section) after Bookings. If this is not the case please reload your tab.**  
 We need to make sure that the browser view cache is deactivated during testing our development, so that changes applied to the xml fragment get properly updated when refreshing the UI.\
 For this, we will use the watch script that has been added to file **package.json** by the app generator. The script contains additional parameter **sap-ui-xx-viewCache=false** added to the app start Url.
 
