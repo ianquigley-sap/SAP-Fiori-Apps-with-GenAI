@@ -3,7 +3,7 @@
 
 In this exercise, we will describe how the Fiori tool AI Generator can inspect other forms of image, from notes on a whiteboard to sticky notes, and it will try its best to generate the correct **SAP Fiori** app.
 
-**Exercise 4 is optional. Please skip this exercise if the generation concept is clear to you. You can continue with EX5.**
+**Exercise 4 is optional. Please skip this exercise if the generation concept is clear to you. You can continue with EX5.** Continue to - [Exercise 5 - Generate and enhance your app](../ex5/README.md)
 
 
 ## Exercise 4.1 Using the other sample images
