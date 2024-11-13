@@ -35,6 +35,7 @@ From the menu select **File -> Add Folder to Workspace...**
 ![Add Folder to Workspace](ex2img4a.png)
 
 Select folder **/home/user/.fioritools** and press **Ok**.
+<span style="color:red">**Please check that the .fiori tools folder is <u>not</u> in /home/user/projects/.fioritools**</span>
 
 ![alt text](ex2img4b.png)
 
