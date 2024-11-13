@@ -34,7 +34,7 @@ From the menu select **File -> Add Folder to Workspace...**
 
 ![Add Folder to Workspace](ex2img4a.png)
 
-1. **Delete /projects** from the input field.
+1. **Delete ~~projects/~~** from the input field.
 
 ![delete](1.png)
 
