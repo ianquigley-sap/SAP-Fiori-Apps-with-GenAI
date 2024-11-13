@@ -34,10 +34,14 @@ From the menu select **File -> Add Folder to Workspace...**
 
 ![Add Folder to Workspace](ex2img4a.png)
 
-Select folder **/home/user/.fioritools** and press **Ok**.
-<span style="color:red">**Please check that the .fiori tools folder is <u>not</u> in /home/user/projects/.fioritools**</span>
+1. **Delete /projects** from the input field.
 
-![alt text](ex2img4b.png)
+![delete](1.png)
+
+2. Select folder **/home/user/.fioritools** and press **Ok**. <br>
+<span style="color:red">**Please check that there is no /projects in the input field.</span>
+
+![alt text](2.png)
 
 Both folders should appear together in a workspace as shown below, which is required for some of the subsequent exercises to work properly.
 
