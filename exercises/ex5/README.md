@@ -35,16 +35,17 @@ The preview of the newly generated app should look like the following picture.
 
 ![image](ex5img6.png)
 
-## Exercise 5.2 Enhance your app
+## Exercise 5.2 Use Ai to refine Test Data 
 
-As a next step we want to enhance our AI generated app. To do this switch back from your **Preview** tab in your browser to your **Business Application Studio** tab again. 
-Now look for your **Staging Area** section in the left hand navigation. Now hover your mouse over **STAGING AREA** to reveal the **App Modeler** button. Please press **Start App Modeler**.
+ If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button. 
 
-![image](ex5img7.png)
+ ![image](ex5img21.png)
 
-Now you can see the page map for our AI generated Travel app. Please check if you can see the **AI Generator staging area** sign up top. If this is the case, press the edit button on the list report.
+ Click on **Generate**
 
-![image](ex5img8.png)
+ ![image](ex5img22.png)
+
+
 
 As the next step, we want to add an additional column that indicates wether it is a business flight, and another one showing the flight destination.\
 Please find the columns section and press the **Add column** button.
@@ -93,26 +94,8 @@ Once this is done, we want to preview the app again to see the newly created col
 
 ![image](ex5img19.png)
 
-## Exercise 5.3 Use Ai to refine Test Data 
-
- If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button. 
-
- ![image](ex5img21.png)
-
- Click on **Generate**
-
- ![image](ex5img22.png)
 
 
-To reload the app with our generated Ai Mock Data we have to go to our Terminal at the bottom of the page. <br>
-Click inside of the terminal field and press:<br>
-**control + c (on Mac)**<br>
-**STRG + c (on Windwos)**<br>
-
-You should now see<br>**(CDS) - my watch has ended<br>
-user: fiori-tools-ai $**
-
-![image](ex5img191.png)
 
 Now you can press the **Preview** button on the left side again. 
 
