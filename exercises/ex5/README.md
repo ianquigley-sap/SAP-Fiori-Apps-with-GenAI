@@ -35,7 +35,17 @@ The preview of the newly generated app should look like the following picture.
 
 ![image](ex5img6.png)
 
-## Exercise 5.2 Use Ai to refine Test Data 
+## Exercise 5.2 Enhance your app
+As a next step we want to enhance our AI generated app. To do this switch back from your Preview tab in your browser to your Business Application Studio tab again. Now look for your Staging Area section in the left hand navigation. Now hover your mouse over STAGING AREA to reveal the App Modeler button. Please press Start App Modeler.
+
+![image](ex5img7.png)
+
+Now you can see the page map for our AI generated Travel app. Please check if you can see the AI Generator staging area sign up top. If this is the case, press the edit button on the list report.
+
+![image](ex5img8.png)
+
+
+## Exercise 5.3 Use Ai to refine Test Data 
 
  If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button. 
 
