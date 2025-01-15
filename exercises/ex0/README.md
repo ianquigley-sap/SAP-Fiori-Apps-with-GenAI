@@ -69,7 +69,7 @@ You will be presented with a blank file apart from 2 curly braces:
 Between the curly braces, enter the text:
 
 ```JSON
-"sap.ux.help.testBetaFeatures.enableFioriAI": "165a0e31-35ea-4bee-8d47-b8593435a82d"
+"sap.ux.help.testBetaFeatures.enableFioriAIAppModeler": "165a0e31-35ea-4bee-8d47-b8593435a82g"
 ```
 
 Your file should look as follows:
