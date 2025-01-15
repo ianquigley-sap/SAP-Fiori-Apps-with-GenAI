@@ -104,7 +104,15 @@ Once this is done, we want to preview the app again to see the newly created col
 
 ![image](ex5img19.png)
 
+## Exercise 5.3 Use Ai to refine Test Data 
 
+ If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button again to populate the Mock Data. 
+
+ ![image](ex5img21.png)
+
+ Click on **Generate**
+
+ ![image](ex5img22.png)
 
 
 Now you can press the **Preview** button on the left side again. 
