@@ -49,7 +49,7 @@ Now you can see the page map for our AI generated Travel app. Please check if yo
 
  We now press the **Use Ai to refine Test Data** Button to populate Mock Data for the first time. This will add all the needed structure.
 
- ![image](ex5img21.png)
+ ![image](ex5img21_1.png)
 
  Click on **Generate**
 
