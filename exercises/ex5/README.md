@@ -47,7 +47,7 @@ Now you can see the page map for our AI generated Travel app. Please check if yo
 
 ## Exercise 5.3 Use Ai to refine Test Data 
 
- If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button. 
+ We now press the **Use Ai to refine Test Data** Button to populate Mock Data for the first time. This will add all the needed structure.
 
  ![image](ex5img21.png)
 
@@ -104,9 +104,10 @@ Once this is done, we want to preview the app again to see the newly created col
 
 ![image](ex5img19.png)
 
-## Exercise 5.3 Use Ai to refine Test Data 
+## Exercise 5.4 Use Ai to refine Test Data again
 
- If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button again to populate the Mock Data. 
+
+  If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button again.
 
  ![image](ex5img21.png)
 
@@ -115,7 +116,7 @@ Once this is done, we want to preview the app again to see the newly created col
  ![image](ex5img22.png)
 
 
-Now you can press the **Preview** button on the left side again. 
+Now you can press the **Preview** button on the left side again or switch to your already open preview tab.
 
 ![image](ex5img192.png)
 
@@ -190,7 +191,11 @@ Press the **Delete** button ![](image10.png) to delete section **Bookings**.
 
 ![](image9.png)
 
+If you encounter the Error shown below, please refresh you BAS with 
+**STRG + R (Windows)**<br>
+**Command + R (Mac)** <br> 
 
+![](image91.png)
 
 Next click on the **Add Sections** ![](image14.png) menu item.
 
