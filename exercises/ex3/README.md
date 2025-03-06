@@ -36,33 +36,25 @@ The text of the file will be populated into the text box.  Click **Generate** to
 
 ## Exercise 3.2 Reviewing the generate application from a business requirement document with images
 
-After generation completes, click on the **Preview** button to launch a preview of the generated application.
+After generation completes, a dropdown will appear with a selection please choose the ai-image-samples folder.
 
 ![image](ex3img8.png)
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click **Return/Enter** to use any other port for preview
+Click on the **Explore** icon and you should have another new folder for the project, this time entitled **ai-created-cap-1**. Open the context menu with **right-click** and select preview application to launch a preview of the generated application.
 
 ![image](ex3img9.png)
 
-A new browser tab should open with the generated application. <br>
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), Navigate to the terminal and open the one you used for the last preview and use **CTRL + C** to stop it from running. Then try previewing your application again.
+
 ![image](ex3img10.png)
 
-Select an item from the list and the object page should display with the details:
+A new browser tab should open with the generated application. <br>
 
 ![image](ex3img11.png)
 
-Navigate back to the tab with SAP Business Application Studio, and click **Accept** to include this project into your workspace
+Select an item from the list and the object page should display with the details:
 
-
-![image](ex3img12-2.png)
-
-If you get a dropdown with a selection please choose the ai-image-samples folder.
-
-![image](ex2img132.png)
-
-Click on the **Explorer** icon and you should have another new folder for the project, this time entitled **ai-created-cap-1**
-
-![image](ex3img13.png)
+![image](ex3img12.png)
 
 ## Summary
 
