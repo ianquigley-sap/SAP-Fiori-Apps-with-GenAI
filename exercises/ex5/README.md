@@ -26,21 +26,25 @@ Click **Generate**
 
 ![image](ex5img4.png)
 
-Once the app has been successfully generated you should see a **Accept Project** and **Preview** button.
+Once the app has been successfully generated you should see a dropdown appear with a selection please choose the ai-image-samples folder.
 Please click now the **Preview** button to open up the app in a preview tab.
 
-![image](ex5img5.png)
+![image](ex5img5-1.png)
+
+Navigate to the explorer and open the context menu and click preview application.
+
+![image](ex5img5-2.png)
 
 The preview of the newly generated app should look like the following picture.
 
 ![image](ex5img6.png)
 
 ## Exercise 5.2 Enhance your app
-As a next step we want to enhance our AI generated app. To do this switch back from your Preview tab in your browser to your Business Application Studio tab again. Now look for your Staging Area section in the left hand navigation. Now hover your mouse over STAGING AREA to reveal the App Modeler button. Please press Start App Modeler.
+As a next step we want to enhance our AI generated app. To do this switch back from your Preview tab in your browser to your Business Application Studio tab again. Now look for your Application Modeler section in the left hand navigation. Now expand the folder your application is in until you see **Map**. Please click on **Map**.
 
 ![image](ex5img7.png)
 
-Now you can see the page map for our AI generated Travel app. Please check if you can see the AI Generator staging area sign up top. If this is the case, press the edit button on the list report.
+Now you can see the page map for our AI generated Travel app. Please check if you can see the Advanced features enabled up top. If this is the case, press the edit button on the list report.
 
 ![image](ex5img8.png)
 
@@ -75,7 +79,7 @@ In the input field, type in **Business** and set the checkmark on the left hand 
 ![image](ex5img12.png)
 
 1. Now click on **String** on the right hand side.
-2. Select **Boolean** 
+2. Select **Boolean** .
 
 ![image](ex5img13.png)
 
@@ -89,10 +93,10 @@ Now we want to add a second column. Please repeat pressing the **add column** bu
 
 Open up the dropdown again.
 
-![image](ex5img16.png)
+![image](ex5img11.png)
 
 1. In the input field, type in **Destination** and set the checkmark on the left hand side radio box. This time we want to leave the selection on the right hand side on **String**. 
-2. Click on **Add**
+2. Click on **Add**.
 
 ![image](ex5img17.png)
 
@@ -100,7 +104,7 @@ In the Columns section you now can see our newly added column (Business & Destin
 
 ![image](ex5img18.png)
 
-Once this is done, we want to preview the app again to see the newly created columns in action. Switch to your **preview** tab in your browser and reload the tab with STRG+R (Windows) or COMMAND+R (Mac). This will reload the app and reveal the new columns Business and Destination.
+Once this is done, we want to preview the app again to see the newly created columns in action. Switch to your **preview** tab in your browser and reload the tab with CTRL+R (Windows) or COMMAND+R (Mac). This will reload the app and reveal the new columns Business and Destination.
 
 ![image](ex5img19.png)
 
@@ -116,12 +120,12 @@ Once this is done, we want to preview the app again to see the newly created col
  ![image](ex5img22.png)
 
 
-Now you can press the **Preview** button on the left side again or switch to your already open preview tab.
+Now you can press the **Preview** button when hovering over your application in application modeler or switch to your already open preview tab.
 
 ![image](ex5img192.png)
 
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), click **Return/Enter** to use any other port for preview
+You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), navigate to a previous terminal and use CTRL + C to stop the application from running.
 
 ![image](ex5img20.png)
 
@@ -137,33 +141,23 @@ As the next step we want to switch the layout of the app to the flexible column 
 
 ![image](ex5img24.png)
 
-Navigate to the Felxible Column Layout on the right side. Switch from the **Standard Layout** to the **Flexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
+Navigate to the Felxible Column Layout on the right side. If the menu is not already open click the icon to open it. Look for the **Flexible Column Layout** heading and switch from the **Standard Layout** to the **Flexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
 
 ![image](ex5img25.png)
 
 As a next step switch to you **Preview** tab again to reload your app with: <br>
-**STRG + R (Windows)**<br>
+**CTRL + R (Windows)**<br>
 **Command + R (Mac)** <br> 
+If this does not work stop the application from running and preview it again. <br>
 After this step click on the first item in the list to experience the flexible column layout.
 
 ![image](ex5img26.png)
 
-Now click on the first line on the object page
+Now click on the first line on the object page.
 
 ![image](ex5img27.png)
 
-## Exercise 5.5 Accepting the project
-
-1. Please press **Accept Project* on the bottom right side of the screen. <br>
-2. Please select the first option from the dropdown **ai-images-sample**
-
-You now moved you project out of the staging area.
-
-![image](ex5img28.png)
-
-
-
-## Exercise 5.6 Using the Flexible Programming Model
+## Exercise 5.5 Using the Flexible Programming Model
 
 The available [SAP Fiori elements floorplans](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2b2b12e708944d85a40d087194cc1edd.html) for OData V4 cover most business scenarios that customers encounter with SAP. In fact, SAP uses these SAP Fiori elements floorplans to create roughly 80% of new SAP S/4HANA apps.\
 If these floorplans do not meet your needs, the [flexible programming model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction) provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
@@ -191,10 +185,9 @@ Press the **Delete** button ![](image10.png) to delete section **Bookings**.
 
 ![](image9.png)
 
-If you encounter the Error shown below, please refresh you BAS with 
-**STRG + R (Windows)**<br>
+If you encounter the Error shown below, please refresh your BAS with <br>
+**CTRL + R (Windows)**<br>
 **Command + R (Mac)** <br> 
-
 ![](image91.png)
 
 Next click on the **Add Sections** ![](image14.png) menu item.
@@ -377,6 +370,6 @@ The filter is applied to the bookings table.
 
 ## Summary
 
-You now have completed the Hands-on.Thank you very much for participating.
+You now have completed the Hands-on. Thank you very much for participating.
 
 
