@@ -133,6 +133,8 @@ You may see a message in the terminal stating that the port is already in use (f
 
 ![image](ex1img13.png)
 
+<span style="color : red">**Before proceeding to the next exercise, please ensure to stop any running applications using CTRL + C**</span>
+
 ## Summary
 
 You've now successfully generated a SAP Fiori app using business requirements as input to the AI generator.

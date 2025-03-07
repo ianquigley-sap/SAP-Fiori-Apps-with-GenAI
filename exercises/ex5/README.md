@@ -100,7 +100,7 @@ Open up the dropdown again.
 
 ![image](ex5img17.png)
 
-In the Columns section you now can see our newly added column (Business & Destination). Now we want to move to the middle on the list. To do so click on the up arrow shown in the picture. 
+In the Columns section you now can see our newly added columns (Business & Destination). Now we want to move to the middle of the list. To do so click on the up arrow shown in the picture. 
 
 ![image](ex5img18.png)
 
@@ -141,7 +141,7 @@ As the next step we want to switch the layout of the app to the flexible column 
 
 ![image](ex5img24.png)
 
-Navigate to the Felxible Column Layout on the right side. If the menu is not already open click the icon to open it. Look for the **Flexible Column Layout** heading and switch from the **Standard Layout** to the **Flexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
+Navigate to the Flexible Column Layout on the right side. If the menu is not already open click the icon to open it. Look for the **Flexible Column Layout** heading and switch from the **Standard Layout** to the **Flexible Column Layout**. For the 2 column layout select **Mid-Expanded**.
 
 ![image](ex5img25.png)
 

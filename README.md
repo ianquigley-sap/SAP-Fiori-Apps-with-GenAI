@@ -41,7 +41,7 @@ The generated application will be built from the **SAP Cloud Application Program
 
 - [Exercise 3 - Generate an SAP Fiori app using images and text](exercises/ex3#exercise-3---generate-an-sap-fiori-elements-application-using-images-and-text)
   - [Exercise 3.1 Uploading the business requirement document with images](exercises/ex3#exercise-31-uploading-the-business-requirement-document-with-images)
-  - [Exercise 3.2 Reviewing the generate application from a business requirement document with images](exercises/ex3#exercise-32-reviewing-the-generate-application-from-a-business-requirement-document-with-images)
+  - [Exercise 3.2 Previewing the generated application from a business requirement document with images](exercises/ex3#exercise-32-previewing-the-generated-application-from-a-business-requirement-document-with-images)
 
 - [Optional Exercise 4 - Other sample images for generation](exercises/ex4#exercise-4---other-sample-images-for-generation)
   - [Exercise 4.1 Using the other sample images](exercises/ex4#exercise-41-using-the-other-sample-images)

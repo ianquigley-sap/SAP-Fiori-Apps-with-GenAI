@@ -89,6 +89,8 @@ Select the **start** script from the **Preview Options** dropdown when prompted.
 
 The application should launch in a new browser tab. Click **Go** to see the sample data that the AI has created.
 
+_Note: if the application created in the previous exercise is still running, the launch might be interrupted by an 'address already in use' error. Navigate to the previous workspace and terminate the application to resolve this issue._
+
 ![image](ex2img14.png)
 
 If the application failed to launch and you see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise). Navigate to the terminal for the last preview and use CTRL + C to stop it from running. Then try previewing your application again.

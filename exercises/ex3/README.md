@@ -34,9 +34,9 @@ The text of the file will be populated into the text box.  Click **Generate** to
 
 ![image](ex3img7.png)
 
-## Exercise 3.2 Reviewing the generate application from a business requirement document with images
+## Exercise 3.2 Previewing the generated application from a business requirement document with images
 
-After generation completes, a dropdown will appear with a selection please choose the ai-image-samples folder.
+After generation completes, a dropdown will appear with a selection. Please choose the ai-image-samples folder.
 
 ![image](ex3img8.png)
 
