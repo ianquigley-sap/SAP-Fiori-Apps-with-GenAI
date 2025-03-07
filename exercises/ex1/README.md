@@ -93,7 +93,7 @@ The application will start generating and go through each of the steps.  This ca
 ![image](ex1img7.png)
 
 
-## Exercise 1.3 Preview the generated application
+## Exercise 1.3 Previewing the generated application
 
 When generation of the application completes, it will be loaded to the projects folder which was opened in the previous exercise. Click on the **Explorer** icon in the side panel and you will see that you now have a new **CAP project** with an **SAP Fiori** app. The project folder will be called **ai-created-cap**.
 
@@ -111,7 +111,7 @@ A new browser tab should launch with the generated application.  Click between *
 
 ![image](ex1img11.png)
 
-## Exercise 1.4 Providing your own business requirements for generation.
+## Exercise 1.4 Providing your own business requirements for generation
 
 Open the **SAP Fiori** panel again
 
