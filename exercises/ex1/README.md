@@ -12,7 +12,7 @@ In the **SAP Business Application Studio**, the **projects** folder should be op
 
 ![image](ex1img2.png)
 
-The **SAP Fiori** panel launch, you can close the **Application Modeler** and **Information** sections, and keep the **Project Accelerator** section open
+The **SAP Fiori** panel will launch, you can close the **Application Modeler** and **Information** sections, and keep the **Project Accelerator** section open
 
 ![image](ex1img3.png)
 
@@ -93,35 +93,29 @@ The application will start generating and go through each of the steps.  This ca
 ![image](ex1img7.png)
 
 
-## Exercise 1.3 Reviewing the generated application
+## Exercise 1.3 Preview the generated application
 
-When generation of the application completes, the **staging area** will launch.  Click on a file in the staging area and it will load in the main window for you to review.
+When generation of the application completes, it will be loaded to the projects folder which was opened in the previous exercise. Click on the **Explorer** icon in the side panel and you will see that you now have a new **CAP project** with an **SAP Fiori** app. The project folder will be called **ai-created-cap**.
 
 ![image](ex1img8.png)
 
-Click on the **Preview** button.  
+Right click the **ai-created-cap** folder and click the **Preview Application** button from the context menu.  
 
 ![image](ex1img9.png)
 
-A new browser tab should launch with the generated application.  Click between **Customers** (1) and **Contracts** (2) to see the different data tables.
+Select the **start** script from the **Preview Options** dropdown when prompted.
 
 ![image](ex1img10.png)
 
-## Exercise 1.4 Accepting the generated application
-
-In the SAP Fiori panel in SAP Business Application Studio, click **Accept** to accept the project into your workspace
+A new browser tab should launch with the generated application.  Click between **Customers** (1) and **Contracts** (2) to see the different data tables.
 
 ![image](ex1img11.png)
 
-Click on the **Explorer** icon in the side panel and you will see that you now have a new **CAP project** with an **SAP Fiori** app. The project folder will be called **ai-created-app**.
-
-![image](ex1img12.png)
-
-## Exercise 1.5 Providing your own business requirements for generation.
+## Exercise 1.4 Providing your own business requirements for generation.
 
 Open the **SAP Fiori** panel again
 
-![image](ex1img13.png)
+![image](ex1img12.png)
 
 This time, use your imagination to provide a business requirement document from which you would like to create an SAP Fiori app.  
 
@@ -135,9 +129,9 @@ Create an app that lists the US presidents
 Create an app that I can use for my pet grooming bookings
 ```
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), click **Return/Enter** to use any other port for preview
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), Navigate to the terminal and open the one you used for the last preview and use CTRL + C to stop it from running. Then try previewing your application again.
 
-![image](ex2img11.png)
+![image](ex1img13.png)
 
 ## Summary
 
