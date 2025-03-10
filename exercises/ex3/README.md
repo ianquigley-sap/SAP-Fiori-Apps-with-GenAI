@@ -44,7 +44,7 @@ Click on the **Explore** icon and you should have another new folder for the pro
 
 ![image](ex3img9.png)
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), Navigate to the terminal and open the one you used for the last preview and use **CTRL + C** to stop it from running. Then try previewing your application again.
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex3img10.png)
 

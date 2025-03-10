@@ -103,7 +103,7 @@ Right click the **ai-created-cap** folder and click the **Preview Application** 
 
 ![image](ex1img9.png)
 
-Select the **start** script from the **Preview Options** dropdown when prompted.
+Select the **watch** script from the **Preview Options** dropdown when prompted.
 
 ![image](ex1img10.png)
 
@@ -129,11 +129,9 @@ Create an app that lists the US presidents
 Create an app that I can use for my pet grooming bookings
 ```
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), Navigate to the terminal and open the one you used for the last preview and use CTRL + C to stop it from running. Then try previewing your application again.
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex1img13.png)
-
-<span style="color : red">**Before proceeding to the next exercise, please ensure to stop any running applications using CTRL + C**</span>
 
 ## Summary
 

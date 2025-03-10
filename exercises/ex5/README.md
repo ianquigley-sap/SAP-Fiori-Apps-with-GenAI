@@ -125,7 +125,7 @@ Now you can press the **Preview** button when hovering over your application in 
 ![image](ex5img192.png)
 
 
-You may see a message in the terminal stating that the port is already in use (from previewing our application from exercise 1), navigate to a previous terminal and use CTRL + C to stop the application from running.
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex5img20.png)
 

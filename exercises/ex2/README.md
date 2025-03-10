@@ -83,7 +83,7 @@ Right click the **ai-created-cap** folder and click the **Preview Application** 
 
 ![image](ex2img12.png)
 
-Select the **start** script from the **Preview Options** dropdown when prompted.
+Select the **watch** script from the **Preview Options** dropdown when prompted.
 
 ![image](ex2img13.png)
 
@@ -93,7 +93,7 @@ _Note: if the application created in the previous exercise is still running, the
 
 ![image](ex2img14.png)
 
-If the application failed to launch and you see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise). Navigate to the terminal for the last preview and use CTRL + C to stop it from running. Then try previewing your application again.
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex2img15.png)
 
