@@ -129,6 +129,19 @@ Create an app that lists the US presidents
 Create an app that I can use for my pet grooming bookings
 ```
 
+When generation of the application completes, it will be loaded to the projects folder which was opened in the previous exercise. Click on the **Explorer** icon in the side panel and you will see that you now have a new **CAP project** with an **SAP Fiori** app. The project folder will be called **ai-created-cap-1**.
+
+![image](ex1img12-1.png)
+
+Right click the **ai-created-cap-1** folder and click the **Preview Application** button from the context menu.  
+
+![image](ex1img12-11.png)
+
+Select the **watch** script from the **Preview Options** dropdown when prompted.
+
+![image](ex1img12-2.png)
+
+
 You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex1img13.png)

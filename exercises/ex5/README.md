@@ -27,7 +27,6 @@ Click **Generate**
 ![image](ex5img4.png)
 
 Once the app has been successfully generated you should see a dropdown appear with a selection please choose the ai-image-samples folder.
-Please click now the **Preview** button to open up the app in a preview tab.
 
 ![image](ex5img5-1.png)
 
@@ -35,12 +34,24 @@ Navigate to the explorer and open the context menu and click preview application
 
 ![image](ex5img5-2.png)
 
+Select the **watch** script from the **Preview Options** dropdown when prompted.
+
+![image](ex5img5-3.png)
+
+You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
+
+![image](ex5img20.png)
+
 The preview of the newly generated app should look like the following picture.
 
 ![image](ex5img6.png)
 
 ## Exercise 5.2 Enhance your app
-As a next step we want to enhance our AI generated app. To do this switch back from your Preview tab in your browser to your Business Application Studio tab again. Now look for your Application Modeler section in the left hand navigation. Now expand the folder your application is in until you see **Map**. Please click on **Map**.
+As a next step we want to enhance our AI generated app. To do this switch back from your Preview tab in your browser to your Business Application Studio tab again. Click on the SAP Fiori icon in the left hand side panel.
+
+![image](ex5img7-1.png)
+
+Look for the Application Modeler section in the left hand navigation and expand the folder your application is in until you see **Map**. Please click on **Map**.
 
 ![image](ex5img7.png)
 
@@ -51,17 +62,7 @@ Now you can see the page map for our AI generated Travel app. Please check if yo
 
 ## Exercise 5.3 Use Ai to refine Test Data 
 
- We now press the **Use Ai to refine Test Data** Button to populate Mock Data for the first time. This will add all the needed structure.
-
- ![image](ex5img21_1.png)
-
- Click on **Generate**
-
- ![image](ex5img22.png)
-
-
-
-As the next step, we want to add an additional column that indicates wether it is a business flight, and another one showing the flight destination.\
+As the next step, we want to add an additional column that indicates whether it is a business flight, and another one showing the flight destination.\
 Please find the columns section and press the **Add column** button.
 
 ![image](ex5img9.png)
@@ -108,7 +109,7 @@ Once this is done, we want to preview the app again to see the newly created col
 
 ![image](ex5img19.png)
 
-## Exercise 5.4 Use Ai to refine Test Data again
+## Use Ai to refine Test Data again
 
 
   If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button again.
@@ -119,11 +120,13 @@ Once this is done, we want to preview the app again to see the newly created col
 
  ![image](ex5img22.png)
 
+Navigate to the explorer and open the context menu and click preview application.
 
-Now you can press the **Preview** button when hovering over your application in application modeler or switch to your already open preview tab.
+![image](ex5img5-2.png)
 
-![image](ex5img192.png)
+Select the **watch** script from the **Preview Options** dropdown when prompted.
 
+![image](ex5img5-3.png)
 
 You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 

@@ -8,7 +8,7 @@ From the menu select **View -> Command Palette**
 
 ![image](ex2img1.png)
 
-Sarch for command **git clone** and select it.
+Search for command **git clone** and select it.
 
 ![image](ex2img2.png)
 
@@ -87,15 +87,15 @@ Select the **watch** script from the **Preview Options** dropdown when prompted.
 
 ![image](ex2img13.png)
 
-The application should launch in a new browser tab. Click **Go** to see the sample data that the AI has created.
-
-_Note: if the application created in the previous exercise is still running, the launch might be interrupted by an 'address already in use' error. Navigate to the previous workspace and terminate the application to resolve this issue._
-
-![image](ex2img14.png)
-
 You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
 ![image](ex2img15.png)
+
+The application should launch in a new browser tab. Click **Go** to see the sample data that the AI has created.
+
+![image](ex2img14.png)
+
+
 
 ## Summary
 

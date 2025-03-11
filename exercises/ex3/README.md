@@ -18,7 +18,7 @@ Similar to the previous exercises, click on the SAP Fiori tools icon to open the
 
 ![image](ex3img3.png)
 
-Click on the **Load file** link
+Click on the **Choose file** link
 
 ![image](ex3img4.png)
 
@@ -43,6 +43,10 @@ After generation completes, a dropdown will appear with a selection. Please choo
 Click on the **Explore** icon and you should have another new folder for the project, this time entitled **ai-created-cap-1**. Open the context menu with **right-click** and select preview application to launch a preview of the generated application.
 
 ![image](ex3img9.png)
+
+Select the **watch** script from the **Preview Options** dropdown when prompted.
+
+![image](ex3img9-1.png)
 
 You may see a message in the terminal stating that the port is already in use (from previewing our application from the last exercise), click Return/Enter to use any other port for preview
 
