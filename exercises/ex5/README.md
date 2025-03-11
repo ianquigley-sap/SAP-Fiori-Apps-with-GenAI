@@ -8,7 +8,7 @@ Please be aware that you need to complete: [Exercise 0 - Getting Started - Setti
 
 ## Exercise 5.1 Generate your app
 
-Navigate to you explorer in the business application studio and look for the **TravelScenario.png** picture. Double click on the picture to see the preview.
+Navigate to your explorer in the business application studio and look for the **TravelScenario.png** picture. Double click on the picture to see the preview.
   
 ![image](ex5img1.png)
 
@@ -26,11 +26,11 @@ Click **Generate**
 
 ![image](ex5img4.png)
 
-Once the app has been successfully generated you should see a dropdown appear with a selection please choose the ai-image-samples folder.
+Once the app has been successfully generated you should see a dropdown appear with a selection. Please choose the ai-image-samples folder.
 
 ![image](ex5img5-1.png)
 
-Navigate to the explorer and open the context menu and click preview application.
+Navigate to the explorer and open the context menu. Click preview application.
 
 ![image](ex5img5-2.png)
 
@@ -67,7 +67,7 @@ Please find the columns section and press the **Add column** button.
 
 ![image](ex5img9.png)
 
-Now we want to select *Add Basic Columns** from the drop down menu.
+Now we want to select **Add Basic Columns** from the drop down menu.
 
 ![image](ex5img10.png)
 
@@ -88,7 +88,7 @@ Click Add.
 
 ![image](ex5img14.png)
 
-Now we want to add a second column. Please repeat pressing the **add column** button the right hand side again.
+Now we want to add a second column. Please click the **Add Column** button on the right hand side again.
 
 ![image](ex5img15.png)
 
@@ -112,7 +112,7 @@ Once this is done, we want to preview the app again to see the newly created col
 ## Use Ai to refine Test Data again
 
 
-  If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** Button again.
+  If you successfully previewed the two new columns (Business and Destination). We can now press the **Use Ai to refine Test Data** button again.
 
  ![image](ex5img21.png)
 
@@ -120,7 +120,7 @@ Once this is done, we want to preview the app again to see the newly created col
 
  ![image](ex5img22.png)
 
-Navigate to the explorer and open the context menu and click preview application.
+Navigate to the explorer, open the context menu and click preview application.
 
 ![image](ex5img5-2.png)
 
@@ -140,7 +140,7 @@ You can now see your Ai Mock Data in the preview.
 
 As the next step we want to switch the layout of the app to the flexible column layout. <br>
 1. To have more room in the business application studio we can now close the preview.<br>
-2. Now click on **Page View**
+2. Now click on **Page Map**
 
 ![image](ex5img24.png)
 
@@ -148,7 +148,7 @@ Navigate to the Flexible Column Layout on the right side. If the menu is not alr
 
 ![image](ex5img25.png)
 
-As a next step switch to you **Preview** tab again to reload your app with: <br>
+As a next step switch to the **Preview** tab again to reload your app with: <br>
 **CTRL + R (Windows)**<br>
 **Command + R (Mac)** <br> 
 If this does not work stop the application from running and preview it again. <br>
@@ -163,16 +163,15 @@ Now click on the first line on the object page.
 ## Exercise 5.5 Using the Flexible Programming Model
 
 The available [SAP Fiori elements floorplans](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2b2b12e708944d85a40d087194cc1edd.html) for OData V4 cover most business scenarios that customers encounter with SAP. In fact, SAP uses these SAP Fiori elements floorplans to create roughly 80% of new SAP S/4HANA apps.\
-If these floorplans do not meet your needs, the [flexible programming model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction) provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls,\
-and leverage controller extensions in order to fine-tune the behaviour of your app.\
+If these floorplans do not meet your needs, the [flexible programming model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction) provided by SAP Fiori elements allows to assemble your custom design by combining the available building blocks with SAPUI5 controls, and leverage controller extensions in order to fine-tune the behaviour of your app.\
 For our scenario we want to combine building blocks filter bar and table in a custom section, enabling the user to set a filter on the bookings of a selected travel.
 
-Please click one the **SAP Fiori** button in the left hand navigation![](image2.png)
+Please click the **SAP Fiori** button in the left hand navigation![](image2.png)
 
 
 ![](image1.png)
 
-Now open the **Open Application Info** on your most recently created app. Depending if you accomplished all exercises this should be ai-created-cap 5.  ![](image4.png).
+Now open the **Open Application Info** on your most recently created app. If you have accomplished all exercises this should be ai-created-cap 5.  ![](image4.png).
 
 ![](image3.png)
 
@@ -211,7 +210,7 @@ Click **Actions** and select ![](image16.png).
 
 ![](image17.png)
 
-Please fill in the fields as shown below and make sure everything is entered correctly. Then click on **ADD**.
+Please fill in the fields as shown below and make sure everything is entered correctly. Then click on **Add**.
 
 ![](image20.png)
 
@@ -227,7 +226,7 @@ Choose the second entry ->  **cds watch \--openmyapplication/webapp/index.html?s
 
 ![](image23.png)
 
-1. Switch to your preview tab in your Browser. 
+1. Switch to your preview tab in your browser. 
 2. Click on the first entry of your list report to find our newly created custom section on our object page.
 
 ![](image241.png)
@@ -288,7 +287,7 @@ In the page editor, click **Edit in source code** ![](image48.png) for filter fi
 
 ![](image47.png)
 
-For the filter field, we will now enable the usage of semantic date values, such as **Today** or **Last Week**, by applying annotation ****FilterRestrictions.AllowedExpressions** as described in [the documentation](https://ui5.sap.com/#/topic/fef65d03d01a4b2baca28983a5449cf7).\
+For the filter field, we will now enable the usage of semantic date values, such as **Today** or **Last Week**, by applying annotation **FilterRestrictions.AllowedExpressions** as described in [the documentation](https://ui5.sap.com/#/topic/fef65d03d01a4b2baca28983a5449cf7).\
 Please copy the Code snippet below and paste it on the exact position that is shown in the picture:
 
 ```
