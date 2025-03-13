@@ -35,8 +35,10 @@ In the lower right corner of the page press button **Create Dev Space**.
 
 ## Opening the Development Space
 
-Make sure your development space has status running. If stopped, click the start button. 
+Make sure your development space has status running. If stopped, click the start button.
+
 ![Restart Dev Space](ex0img4a.png)
+
 Once running, click on the development space name to open it.  This can take some time.
 
 ![Enter Dev Space](ex0img4.png)

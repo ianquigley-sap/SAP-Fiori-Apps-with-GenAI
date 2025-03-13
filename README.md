@@ -31,7 +31,8 @@ The generated application will be built from the **SAP Cloud Application Program
 - [Exercise 1 - Generate an SAP Fiori app from business requirements](exercises/ex1#exercise-1---generate-an-sap-fiori-elements-application-from-business-requirements)
   - [Exercise 1.1 Launching the SAP Fiori tools AI Project Accelerator](exercises/ex1#exercise-11-launching-the-sap-fiori-tools-ai-project-accelerator)
   - [Exercise 1.2 Providing a business requirements document to the Generator](exercises/ex1#exercise-12-providing-a-business-requirements-document-to-the-generator)
-  - [Exercise 1.3 Reviewing the generated application](exercises/ex1#exercise-13-reviewing-the-generated-application)
+  - [Exercise 1.3 Previewing the generated application](exercises/ex1#exercise-13-previewing-the-generated-application)
+  - [Exercise 1.4 Providing your own business requirements for generation](exercises/ex1#exercise-14-providing-your-own-business-requirements-for-generation)
 
 - [Exercise 2 - Generate an SAP Fiori app from an image](exercises/ex2#exercise-2---generate-an-sap-fiori-elements-application-from-an-image)
   - [Exercise 2.1 Downloading the sample images into SAP Business Application Studio](exercises/ex2#exercise-21-downloading-the-sample-images-into-sap-business-application-studio)
@@ -40,7 +41,7 @@ The generated application will be built from the **SAP Cloud Application Program
 
 - [Exercise 3 - Generate an SAP Fiori app using images and text](exercises/ex3#exercise-3---generate-an-sap-fiori-elements-application-using-images-and-text)
   - [Exercise 3.1 Uploading the business requirement document with images](exercises/ex3#exercise-31-uploading-the-business-requirement-document-with-images)
-  - [Exercise 3.2 Reviewing the generate application from a business requirement document with images](exercises/ex3#exercise-32-reviewing-the-generate-application-from-a-business-requirement-document-with-images)
+  - [Exercise 3.2 Previewing the generated application from a business requirement document with images](exercises/ex3#exercise-32-previewing-the-generated-application-from-a-business-requirement-document-with-images)
 
 - [Optional Exercise 4 - Other sample images for generation](exercises/ex4#exercise-4---other-sample-images-for-generation)
   - [Exercise 4.1 Using the other sample images](exercises/ex4#exercise-41-using-the-other-sample-images)
@@ -51,5 +52,4 @@ The generated application will be built from the **SAP Cloud Application Program
   - [Exercise 5.2 Enhance your app](exercises/ex5#exercise-52-enhance-your-app)
   - [Exercise 5.3 Use Ai to refine Test Data](exercises/ex5#exercise-53-use-ai-to-refine-test-data)
   - [Exercise 5.4 Flexible column layout](exercises/ex5#exercise-54-flexible-column-layout)
-  - [Exercise 5.5 Accepting the project](exercises/ex5#exercise-55-accepting-the-project)
-  - [Exercise 5.6 Using the Flexible Programming Model](exercises/ex5#exercise-56-using-the-flexible-programming-model)
+  - [Exercise 5.5 Using the Flexible Programming Model](exercises/ex5#exercise-55-using-the-flexible-programming-model)
