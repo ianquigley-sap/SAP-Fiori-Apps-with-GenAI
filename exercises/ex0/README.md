@@ -17,7 +17,6 @@ On the SAP Build landing page, click button **Switch Product** in the top right 
 
 
 
-If the **Welcome to** You have to create a new dev space as follows.
 
 
 Click on the button **Create Dev Space**.
