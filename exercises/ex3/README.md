@@ -18,6 +18,10 @@ Similar to the previous exercises, click on the SAP Fiori tools icon to open the
 
 ![image](ex3img3.png)
 
+Click on **Project folder path** and ensure that it is set to `/home/user/project/ai-image-samples/` and then click **OK**
+
+![image](ex3img3-5.png)
+
 Click on the **Choose file** link
 
 ![image](ex3img4.png)
@@ -36,11 +40,7 @@ The text of the file will be populated into the text box.  Click **Generate** to
 
 ## Exercise 3.2 Previewing the generated application from a business requirement document with images
 
-After generation completes, a dropdown will appear with a selection. Please choose the ai-image-samples folder.
-
-![image](ex3img8.png)
-
-Click on the **Explore** icon and you should have another new folder for the project, this time entitled **ai-created-cap-1**. Open the context menu with **right-click** and select preview application to launch a preview of the generated application.
+After generation completes, click on the **Explore** icon and you should have another new folder for the project, this time entitled **ai-created-cap-1**. Open the context menu with **right-click** and select preview application to launch a preview of the generated application.
 
 ![image](ex3img9.png)
 
