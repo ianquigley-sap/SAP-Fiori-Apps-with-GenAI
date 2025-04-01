@@ -26,11 +26,7 @@ Click **Generate**
 
 ![image](ex5img4.png)
 
-Once the app has been successfully generated you should see a dropdown appear with a selection. Please choose the ai-image-samples folder.
-
-![image](ex5img5-1.png)
-
-Navigate to the explorer and open the context menu. Click preview application.
+Once the app has been successfully generated navigate to the explorer and open the context menu. Click preview application.
 
 ![image](ex5img5-2.png)
 
@@ -55,7 +51,7 @@ Look for the Application Modeler section in the left hand navigation and expand 
 
 ![image](ex5img7.png)
 
-Now you can see the page map for our AI generated Travel app. Please check if you can see the Advanced features enabled up top. If this is the case, press the edit button on the list report.
+Now you can see the page map for our AI generated Travel app. Please check if you can see the Advanced are features enabled up top. If this is the case, press the edit button on the list report.
 
 ![image](ex5img8.png)
 
