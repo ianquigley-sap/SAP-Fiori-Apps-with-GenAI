@@ -69,10 +69,6 @@ The application will start generating, give it some time.
 
 ![image](ex2img9.png)
 
-After the app has generated, you may be prompted to select a workspace or root directory. Please choose the **ai-image-samples** folder.
-
-![image](ex2img10.png)
-
 ## Exercise 2.3 Previewing the generated application
 
 Click on the **Explorer** icon in the side panel and see that you now have an **SAP Fiori** app which was generated from an image.
