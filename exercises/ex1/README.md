@@ -146,6 +146,10 @@ You may see a message in the terminal stating that the port is already in use (f
 
 ![image](ex1img13.png)
 
+The application should launch in a new browser tab. Click **Go** to see the sample data that the AI has created.
+
+![image](ex1img14.png)
+
 ## Summary
 
 You've now successfully generated a SAP Fiori app using business requirements as input to the AI generator.
